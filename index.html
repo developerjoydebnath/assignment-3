@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="custom-style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
     <title>Royal Convention Center</title>
 </head>
 
@@ -16,36 +16,92 @@
 
     <header class="bg-light py-3 header">
         <section class="container h-100">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light h-100">
-                    <div class="container-fluid d-flex align-items-center">
-                      <a class="navbar-brand d-flex align-items-center" href="#"><img src="./images/favicon.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top rounded-1">
-                        <span class="fs-2 fw-bold ms-2">Royal Convention Center</span></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                          <li class="nav-item">
-                            <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">About Us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">Contact</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">Subscribe</a>
-                          </li>
-                        </ul>
-                      </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light h-100">
+                <div class="container-fluid d-flex align-items-center">
+                    <div>
+                        <a class="navbar-brand d-flex align-items-center" href="#">
+                            <h3 class="fs-2 fw-bold ms-2">Royal Convention Center</h3>
+                        </a>
                     </div>
-                </nav>
+                    <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5 mx-2" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5 mx-2" aria-current="page" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </section>
     </header>
     <main>
-        <div>
-            
+        <div id="home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-bolder">The perfect venue for your
+                                next event</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit .</p>
+                            <button type="button" class="btn btn-light text-primary px-4 fs-4 fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-bolder">The perfect venue for your
+                                next event</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit .</p>
+                            <button type="button" class="btn btn-light text-primary px-4 fs-4 fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-bolder">The perfect venue for your
+                                next event</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit .</p>
+                            <button type="button" class="btn btn-light text-primary px-4 fs-4 fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
 
     </main>
