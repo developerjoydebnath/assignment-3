@@ -8,8 +8,22 @@
 .check-icon{
     height: 20px;
     width: 20px;
-    background: rgb(233, 233, 233);
+    background: rgba(233, 233, 233, 0.787);
     border-radius: 50%;
     padding: 2px;
     color: #3F87F5;
+}
+.check-icon-blue{
+    height: 20px;
+    width: 20px;
+    background: rgb(48, 82, 255);
+    border-radius: 50%;
+    padding: 2px;
+    color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .fs-bolder{
+        font-size: 28px;
+    }
 }
